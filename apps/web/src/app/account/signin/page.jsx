@@ -1,7 +1,10 @@
-import { useState } from "react";
-import { motion } from "motion/react";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 import { Shield, X, Eye, EyeOff, Mail, Lock } from "lucide-react";
-import useAuth from "@/utils/useAuth";
+import useAuth from "../../../utils/useAuth";
+
+
+
 
 export default function SignInPage() {
   const [error, setError] = useState(null);

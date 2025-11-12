@@ -1,6 +1,7 @@
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { Shield, LogOut } from "lucide-react";
-import useAuth from "@/utils/useAuth";
+import useAuth from "../../../utils/useAuth";
+
 
 export default function LogoutPage() {
   const { signOut } = useAuth();
